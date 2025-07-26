@@ -5,5 +5,5 @@ title:  "Home"
 
 ## Latest posts:
 
-- [Test]({{ site.baseurl }}{% link 2025-07-26-blog-update.markdown %})
+- [I did it!]({{ site.baseurl }}{% link 2025-26-07-blog-update.markdown %})
 
