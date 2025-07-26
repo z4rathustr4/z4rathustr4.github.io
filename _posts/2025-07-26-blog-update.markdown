@@ -2,7 +2,7 @@
 layout: post
 title:  "I passed the CBBH test!"
 date:   2025-07-26 18:27:57 -0100
-categories: update
+categories: cbbh blog update
 ---
 
 ## I did it!
