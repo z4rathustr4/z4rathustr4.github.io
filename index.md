@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: home
 ---
 
 ### Latest posts
 
-{% for post in site.posts limit 4 %}
