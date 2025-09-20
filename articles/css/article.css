@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Fixedsys Excelsior';
+	src: url('../../assets/fonts/FixedsysExcelsior.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #0c0c0c;
+  color: #00ff7f;
+  font-family: 'Fixedsys Excelsior', monospace;
+  margin: 0;
+  padding: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+header {
+  border-bottom: 2px solid #00ff7f;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #00ff7f;
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #00ff7f;
+}
+
+.date {
+  font-size: 14px;
+  color: #55ff88;
+  margin-top: 5px;
+}
+
+article p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #aaffaa;
+}
+
+a {
+  color: #00ff7f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #00ff7f;
+  padding-top: 10px;
+  font-size: 14px;
+}
+

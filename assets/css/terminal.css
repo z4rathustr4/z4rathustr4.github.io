@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "Fixedsys Excelsior";
+	src: url("../fonts/FixedsysExcelsior.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #0c0c0c;
+	color: #00ff7f;
+	font-family: "Fixedsys Excelsior", monospace;
+	margin: 0;
+	padding: 20px;
+}
+
+#terminal {
+	max-width: 900px;
+	margin: auto;
+	white-space: pre-wrap;
+}
+
+.line {
+	display: flex;
+}
+
+.prompt {
+	color: #00ff7f;
+	margin-right: 5px;
+}
+
+.input {
+	background: transparent;
+	border: none;
+	color: #00ff7f;
+	flex: 1;
+	font-family: "Fixedsys Excelsior", monospace;
+	outline: none;
+}
+
+.cursor {
+	display: inline-block;
+	width: 10px;
+	background: #00ff7f;
+	animation: blink 1s step-start infinite;
+	margin-left: 2px;
+}
+
+@keyframes blink {
+	50% {
+		background: transparent;
+	}
+}

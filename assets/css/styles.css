@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'Fixedsys Excelsior';
+	src: url('../fonts/FixedsysExcelsior.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #0c0c0c;
+	color: #00ff7f;
+	font-family: 'Fixedsys Excelsior', monospace;
+	margin: 0;
+	padding: 22px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Fixedsys Excelsior', monospace;
+	color: #00ff7f;
+	font-size: 28px;
+}
+
+.articles-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 20px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.article-card {
+	background: #111;
+	border: 2px solid #00ff7f;
+	padding: 20px;
+	border-radius: 6px;
+	transition: transform 0.2s, background 0.2s;
+}
+
+.article-card:hover {
+	background: #1a1a1a;
+	transform: translateY(-4px);
+}
+
+.article-card a {
+	text-decoration: none;
+	color: #00ff7f;
+}
+
+.article-card h2 {
+	margin: 0 0 10px 0;
+	font-size: 24px;
+	font-family: 'Fixedsys Excelsior', monospace;
+}
+
+.article-card p {
+	color: #aaffaa;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.article-card .date {
+	font-size: 16px;
+	color: #55ff88;
+}
